@@ -1,0 +1,79 @@
+@font-face {
+    font-family: myFont;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: myFont1;
+    src: url(Inter-Bold.ttf);
+}
+@font-face {
+    font-family: myFont2;
+    src: url(Inter-Regular.ttf);
+}
+@font-face {
+    font-family: myFont3;
+    src: url(Inter-SemiBold.ttf);
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    padding-top: 30px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 30px;
+}
+.container{
+    width: 25em;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 30px;
+}
+.image{
+    transform: translateY(0%);
+    width: 140px;
+    border-radius: 90%;
+}
+h3,h4{
+    font-family: myFont1;
+}
+h3,a{
+    color: white;
+    text-decoration: none;
+}
+a{
+    font-family: myFont3;
+    font-weight: 200;
+    font-size: 14px;
+}
+p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: myFont;
+    color: white;
+}
+h4{
+    color: hsl(75, 94%, 57%);
+}
+ul{
+    list-style: none;
+}
+.link_design{
+    padding-left: 10px;
+    border-radius: 12px;
+    padding-top: 10px;
+    height: 30px; 
+    width: 80%;
+    margin: 6%;
+    background-color: hsl(0, 0%, 20%);
+}
+.link_design:hover{
+    color: hsl(0, 0%, 8%);
+    background-color: hsla(75, 81%, 57%, 0.82);
+    cursor: pointer;
+}
